@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="practice2">
+ <listeners>
+	<listener class-name="fliokart.java.practice2.customListener"/>
+	  </listeners>
+	 
+	  <test name="javaPractice2">	
+	<classes>
+	<class name="fliokart.java.practice2.multipleWindow"/>
+	<class name="fliokart.java.practice2.sample"/>
+	
+	</classes>
+
+</test>
+</suite>

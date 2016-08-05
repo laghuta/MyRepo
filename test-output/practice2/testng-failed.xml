@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [practice2]">
+  <listeners>
+    <listener class-name="fliokart.java.practice2.customListener"/>
+  </listeners>
+  <test name="javaPractice2(failed)">
+    <classes>
+      <class name="fliokart.java.practice2.sample">
+        <methods>
+          <include name="sample3"/>
+        </methods>
+      </class> <!-- fliokart.java.practice2.sample -->
+    </classes>
+  </test> <!-- javaPractice2(failed) -->
+</suite> <!-- Failed suite [practice2] -->

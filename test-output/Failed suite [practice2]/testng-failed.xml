@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [practice2]]">
+  <test name="javaPractice2(failed)(failed)">
+    <classes>
+      <class name="pickdate">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- pickdate -->
+      <class name="doubleclick">
+        <methods>
+          <include name="doubleclick"/>
+          <include name="start"/>
+          <include name="selectable"/>
+        </methods>
+      </class> <!-- doubleclick -->
+      <class name="readingExcelandStoringinArray">
+        <methods>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- readingExcelandStoringinArray -->
+    </classes>
+  </test> <!-- javaPractice2(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [practice2]] -->

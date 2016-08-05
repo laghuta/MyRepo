@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="practice2">
+<test name="javaPractice2">
+	<classes>
+	<class name="sample"/>
+		<methods>
+			<include name="sample1"/>
+			<include name="sample2"/>
+		</methods>
+	
+	</classes>
+
+</test>
+</suite>

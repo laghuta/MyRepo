@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="practice">
+<test name= "javaPractice">
+	<classes>
+	<listeners>
+		<listener class-name="fliokart.java.practice.listener_practice"/>
+	</listeners>
+	
+	<groups>
+	<run>
+	<include name="Regression"/>
+	<include name="smoke"/>
+	</run>
+	</groups>
+		<!--<class name="fliokart.java.practice.ReadWriteXls"/> -->
+		<!--<class name="fliokart.java.practice.ReadingXML"/> -->
+		<class name="fliokart.java.practice.sample"/>
+		<methods>
+		<include name="sample2"/>
+		<include name="sample1"/>
+		<include name="sample4"/>
+		<include name="sample6"/>
+		</methods>
+		 
+		
+		
+	
+	
+	</classes>
+</test>
+</suite>
+
